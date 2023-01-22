@@ -1,0 +1,316 @@
+/*
+    - Pablo Belló -
+*/
+
+/*----FUENTES----*/
+@font-face {
+    font-family: "Tostada";
+    src: url(../otros/tostada.regular.ttf);
+}
+@font-face {
+    font-family: "Space";
+    src: url(../otros/space-age.spaceage.otf);
+}
+@font-face {
+    font-family: "RobotoMono";
+    src: url(../otros/RobotoMono-Medium.ttf);
+}
+/*---------------*/
+
+/*----SCROLLBAR----*/
+body::-webkit-scrollbar {
+    width: var(--scroll-size, 10px);
+    height: var(--scroll-size, 10px);
+}
+body::-webkit-scrollbar-track {
+    background-color: var(--scroll-track, transparent);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-thumb-color, grey);
+    background-image: var(--scroll-thumb, none);
+    border-radius: var(--scroll-thumb-radius, var(--scroll-radius));
+}
+:root {
+    --scroll-size: 10px;
+    --scroll-radius: 10px;
+    --scroll-track: rgb(0 0 0);
+    --scroll-thumb-color: gray;
+}  
+/*-----------------*/
+
+html {
+    scroll-behavior: smooth;
+}
+html, body {
+    width:100%;
+    height:100%;
+    margin:0;
+}
+
+#navBar {
+    width:100%;
+    height:10%;
+    background-color: black;
+    opacity:0.9;
+    position: fixed;
+    top:0;
+    z-index: 100;
+}
+#menuElement {
+    padding-left:20px;
+    color:white;
+    float:left;
+    height:100%;
+}
+ul#lista li {
+    display:inline;
+}
+
+.logo {
+    font-family: "Tostada";
+    font-size:35px;
+    margin-right:70px;
+}
+
+.element {
+    font-family: "RobotoMono";
+    font-size: 25px;
+    text-align: center;
+    margin-right: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    transition: 0.5s;
+    color: gray;
+}
+
+#videoContainer {
+    width:100%;
+    height:90%;
+}
+
+#videoContainer video {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    object-fit: cover;
+    z-index: -100;
+    top:10%;
+    background-color:black;
+}
+
+#videoText {
+    margin:auto;
+}
+
+.content {
+    margin:auto;
+    position: relative;
+    top:100px;
+    color: #f1f1f1;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Space";
+    mix-blend-mode:difference;
+}
+
+.content p {
+    font-family: "Tostada";
+}
+
+#article {
+    width:100%;
+    height:2300px;
+    background-color:white;
+}
+
+.centrar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+#section1 {
+    width:75%;
+    height:648.66px;
+    margin:auto;
+    background-color:white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#section2 {
+    width:75%;
+    height:648.66px;
+    margin:auto;
+    background-color:white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url("https://images2.alphacoders.com/941/941898.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#section3 {
+    width:48%;
+    height:500px;
+    margin-left:25px;
+    background-color:white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    float:left;
+}
+
+#section4 {
+    width:48%;
+    height:500px;
+    margin-right:25px;
+    background-color:white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    float:right;
+}
+
+#header1 {
+    margin-top:0;
+    font-family: "Space";
+    font-size: 50px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#imagen1 {
+    margin-left: 25px;
+    float: left;
+    border: 5px solid black;
+    border-radius: 30%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#imagen2 {
+    margin-right: 25px;
+    float: right;
+    border: 5px solid black;
+    border-radius: 30%;
+    width:450px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#imagen3 {
+    margin-left: 25px;
+    float: left;
+    border: 5px solid black;
+    border-radius: 100%;
+    width:300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#parrafo1 {
+    float:left;
+    width:60%;
+    height:auto;
+    margin-left:25px;
+    margin-right:25px;
+    text-align: justify;
+    font-family: "RobotoMono";
+    font-size: 25px;
+}
+
+#parrafo2 {
+    float:right;
+    width:60%;
+    height:auto;
+    margin-left:25px;
+    margin-right:25px;
+    text-align: justify;
+    font-family: "RobotoMono";
+    font-size: 25px;
+}
+
+#parrafo3 {
+    float:left;
+    width:90%;
+    height:auto;
+    margin-right:40px;
+    margin-left:40px;
+    text-align: justify;
+    font-family: "RobotoMono";
+    font-size: 25px;
+}
+
+#ee {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+#ee:hover {
+    background:yellow;
+    font-size: 75px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 3px solid black;
+    font-family: "Comic Sans MS";
+    transition: 0.5s;
+}
+
+li .segundo {
+    display: none;
+}
+  
+li:hover .primero {
+    display: none;
+}
+  
+li:hover .segundo {
+    display: inline;
+}
+
+#footer {
+    width:100%;
+    height:600px;
+    background-color: rgb(24, 24, 24);
+    font-family: "RobotoMono";
+    color:white;
+    text-align: center;
+}
+
+.boton {
+  background-color: black;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  font-family: "RobotoMono";
+  padding: 16px 19px;
+  transition: 0.2s;
+}
+
+.boton:hover {
+  box-shadow: white 0 0 0 3px, transparent 0 0 0 0;
+}
+
+#tabla {
+    background-color: black;
+    color:black;
+    border:5px solid gray;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin:auto;
+}
+
+#tabla td {
+    border:2px solid gray;
+    border-radius: 25px;
+    background-color: white;
+}

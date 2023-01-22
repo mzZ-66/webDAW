@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P.B.V. - Web</title>
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="otros/favicon.ico" rel="icon" type="image/x-icon">
+    <!--
+        - Pablo Belló -
+    -->
+</head>
+<body>
+    <div id="navBar">
+        <ul id="lista">
+            <li><div id="menuElement" class="logo"><a href="#videoContainer">PB</a></div></li>
+            <li><div id="menuElement" class="element"><a href="otros.html">Otros</a></div></li>
+            <li><div id="menuElement" class="element"><a href="acercade.html">Acerca De</a></div></li>
+        </ul>
+    </div>
+    
+    <div id="videoContainer">
+        <video autoplay muted loop src="otros/Pexels Videos 2421545.mp4" preload="true"></video>
+        <div class="content">
+            <h1>PAGINA WEB SIN PROPOSITO</h1>
+            <hr style="width:50%">
+            <p>Pablo Belló</p>
+        </div>
+    </div>
+
+    <div id="article">
+        <img class="centrar" src="imagenes/arrow.png">
+
+        <div id="section1">
+            <p id="header1">¿Que es esta página Web?</p>
+            <img id="imagen1" src="imagenes/whar.jpg">
+            <div id="parrafo1"><p>Esta Web es un trabajo de clase el cual no tiene ningún uso ni propósito más alla del de mostrar las "habilidades" del creador de la página en los lenguajes HTML y CSS.</p></div>
+        </div>
+
+        <div id="section2">
+            <p id="header1">¿Por que?</p>
+            <img id="imagen2" src="imagenes/gato.gif">
+            <div id="parrafo2"><p>Por ejemplo, aquí se demuestra que el autor sabe importar una imagen en formato GIF, además de poner una imagen de fondo en esta sección.</p></div>
+        </div>
+
+        <div id="section1">
+            <p id="header1">Datos Curiosos</p>
+            <img id="imagen3" src="imagenes/nerd.gif">
+            <div id="parrafo1">
+                <ul>
+                    <li>Si haces click en el "logo" de la página del menú, vuelves al principio.</li><br>
+                    <li>Algunas tildes faltan en los títulos, porque la fuente es incompatible con algunas letras.</li><br>
+                    <li>Si haces click <span id="ee"><a id="ee" href="https://youtu.be/dQw4w9WgXcQ" target="_blank">aquí</a></span> ocurren cosas.</li><br>
+                    <li>
+                        <span class="primero">Texto de ejemplo (haz hover).</span>
+                        <span class="segundo">Si lees esto me pones un 10.</span>
+                    </li><br>
+                    <li>Esta página tiene una scrollbar personalizada.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p style="margin:0; padding-top:25px;">aquí irían las redes sociales y políticas de la empresa, pero como no tengo nada, pues hay un formulario que no sirve de nada</p><br><br>
+
+        <form action="otros/futuroPHP.php" method="post" enctype="multipart/form-data">
+        
+            Nombre de Usuario<br>
+            <input type="text" name="username" value="" size="20" maxlength="30"><br><br>
+            
+        
+            EMAIL<br>
+            <input type="email" name="email" value="" size="40" maxlength="80"><br><br>
+        
+            Contraseña<br>
+            <input type="password" name="password" value="" maxlength="10"><br><br>
+        
+            Sexo <br>
+            <input type="radio" name="sexo" value="hombre" checked="checked">Hombre
+            <input type="radio" name="sexo" value="mujer">Mujer
+            <input type="radio" name="sexo" value="Otro">Otro<br><br>
+
+            <input name="suscribir" type="checkbox" value="suscribir" checked="checked">Suscribirse al Newsletter<br><br>
+        
+            <input type="submit" name="enviar" value="Enviar" class="boton">
+        </form>
+        <p style="padding-top:80px;">"FOOTER"</p>
+        <p>©2023</p>
+    </div>
+</body>
+</html>
