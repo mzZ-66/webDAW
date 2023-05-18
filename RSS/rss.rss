@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>webDAW</title>
+        <link>https://mzz-66.github.io/webDAW/</link>
+        <description>Pagina Principal</description>
+
+        <item>
+            <title>Página Principal</title>
+            <link>https://mzz-66.github.io/webDAW/</link>
+            <description>Primera página de la web.</description>
+        </item>
+
+        <item>
+            <title>Página Otros</title>
+            <link>https://mzz-66.github.io/webDAW/otros.html</link>
+            <description>Página adicional de la web.</description>
+        </item>
+
+        <item>
+            <title>Página Acerca de</title>
+            <link>https://mzz-66.github.io/webDAW/acercade.html</link>
+            <description>Página con información de la web.</description>
+        </item>
+
+        <item>
+            <title>Link gracioso</title>
+            <link>https://youtu.be/dQw4w9WgXcQ</link>
+            <description>Hola.</description>
+        </item>
+
+    </channel>
+</rss>

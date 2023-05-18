@@ -279,11 +279,17 @@ li:hover .segundo {
 
 #footer {
     width:100%;
-    height:600px;
+    height:650px;
     background-color: rgb(24, 24, 24);
     font-family: "RobotoMono";
     color:white;
     text-align: center;
+}
+
+.errores {
+    color: red;
+    font-size: smaller;
+    margin-top: 0;
 }
 
 .boton {
